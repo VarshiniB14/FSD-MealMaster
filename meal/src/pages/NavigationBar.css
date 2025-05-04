@@ -1,0 +1,48 @@
+/* Navigation bar */
+.navbar {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center; /* Centers the entire navigation bar content */
+  align-items: right;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-tabs {
+  color: white;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 30px; /* Spacing between tabs */
+  align-items: right;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+.nav-link {
+  color: white; /* Keep the text white */
+  font-size: 18px; /* Slightly larger text */
+  font-weight: bold;
+  text-transform: uppercase; /* Makes text uppercase */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f39c12; /* Highlight effect on hover */
+}
+
+/* Adjust alignment for small screens */
+@media (max-width: 768px) {
+  .nav-tabs {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+

@@ -1,0 +1,37 @@
+/* Styling for the calendar grid */
+/* MealCalendar.css */
+.meal-calendar {
+    background-image: calbg;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: #fff;
+  }
+  
+div {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    font-weight: bold;
+  }
+  
+  .dropdown-menu {
+    min-width: 100px;
+  }
+  /* Custom CSS to make the delete button even smaller */
+.delete-button {
+    font-size: 0.75rem; /* Smaller font size */
+    padding: 0.25rem 0.5rem; /* Smaller padding */
+  }
+  

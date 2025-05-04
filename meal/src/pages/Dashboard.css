@@ -1,0 +1,31 @@
+/* General Dashboard styles */
+.dashboard {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Brand section */
+  .brand-section {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+  }
+  
+  .brand-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    color: black; /* Black text for visibility */
+  }
+  
+  .brand-tagline {
+    font-size: 20px;
+    margin-top: 10px;
+    color: black; /* Black text for visibility */
+  }
+  

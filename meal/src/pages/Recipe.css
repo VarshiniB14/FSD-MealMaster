@@ -1,0 +1,124 @@
+/* General styling for the recipe page */
+.recipe-page {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffe4e1;
+  color: black;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #f8f9fa;
+  width: 250px;
+  padding: 1rem;
+  border-right: 2px solid #ddd;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.sidebar h4 {
+  margin-top: 1rem;
+  color: #444;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.8rem;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sidebar ul li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Recipes section */
+.recipes-section {
+  flex: 1;
+  padding: 2rem;
+  margin-left: 250px; /* Reserve space for the static sidebar */
+}
+
+.recipes-section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.recipe-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.recipe-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height: 300px; /* Uniform size */
+  text-align: center;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.recipe-name {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* Recipe details section */
+.recipe-details {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 2rem 0 0;
+}
+
+/* Green Close Button */
+.close-btn-green {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.close-btn-green:hover {
+  background-color: #45a049;
+}
